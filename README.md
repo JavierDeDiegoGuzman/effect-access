@@ -281,3 +281,10 @@ yield* Access.permission("file:delete", file)
 - [`examples/basic.ts`](./examples/basic.ts)
 - [`examples/role-store-with-schema.ts`](./examples/role-store-with-schema.ts)
 - [`examples/roles-and-policies.ts`](./examples/roles-and-policies.ts)
+
+## References
+
+This library is inspired by these articles on typed, composable authorization with Effect:
+
+- [Composable authorization with Effect](https://www.typekaizen.com/posts/effect-authz/) by Type Kaizen
+- [Building a Composable Policy System in TypeScript with Effect](https://lucas-barake.github.io/building-a-composable-policy-system/) by Lucas Barake
